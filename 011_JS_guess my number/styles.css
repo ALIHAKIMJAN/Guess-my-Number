@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: grey;
+}
+h1 {
+  color: blue;
+  font-size: 70px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+hr {
+  border: 4px solid white;
+  border-radius: 5px;
+}
+
+.again {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 26px;
+  margin-left: 100px;
+  margin-top: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.number {
+  text-align: center;
+  font-size: 80px;
+  background-color: white;
+  width: 200px;
+  height: 100px;
+  left: 42%;
+  top: 27%;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.between {
+  position: absolute;
+  font-size: 30px;
+  margin-left: 75%;
+  margin-top: -55px;
+  color: rgb(253, 247, 249);
+}
+
+.guess {
+  background: none;
+  border: 4px solid #eee;
+  border-radius: 5%;
+  font-family: inherit;
+  color: inherit;
+  font-size: 3rem;
+  padding: 1rem;
+  width: 180px;
+  text-align: center;
+  display: block;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 12rem;
+}
+
+.check {
+  position: absolute;
+  background-color: floralwhite;
+  width: 8rem;
+  font-size: 2rem;
+  padding: 10px;
+  margin-left: 13.7rem;
+}
+
+/* h3 {
+  position: relative;
+  bottom: 100px;
+  left: 900px;
+  font-size: 20px;
+} */
+
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn:hover {
+  background-color: #ccc;
+}
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+
+.message {
+  margin-bottom: 8rem;
+  height: 3rem;
+}
+
+.label-score {
+  margin-bottom: 2rem;
+}
+
+/* end */
